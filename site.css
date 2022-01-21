@@ -5,6 +5,7 @@
 body {
     scroll-behavior: smooth;
     background-color: rgba(17, 17, 17, 1);
+    height: 100%;
 }
 
 .bg-main {
@@ -78,6 +79,16 @@ a:hover {
     transform: rotate(90deg)/* rtl:ignore */;
 }
 
+.aside-container {
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.socials-icon {
+    width: 1.5rem;
+    height: 1rem;
+}
+
 
 /* Examples */
 .scrollspy-example {
@@ -100,7 +111,7 @@ a:hover {
 }
 
 /* Layout */
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
     body {
         display: grid;
         gap: 1rem;
@@ -135,6 +146,9 @@ a:hover {
     .bd-aside {
         grid-area: 1 / 1;
         scroll-margin-top: 4rem;
+        height: 100vh;
+        min-width: 250px;
+        margin-bottom: 0px!important
     }
 
     .bd-cheatsheet section,

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="327.01572"
+   height="224.34381"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="email-icon-dark.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.4979167"
+     inkscape:cx="187.92768"
+     inkscape:cy="106.14743"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg_1" />
+  <g
+     id="g8"
+     transform="translate(-162.49214,-133.82809)">
+    <title
+       id="title2">Layer 1</title>
+    <g
+       id="svg_1"
+       transform="rotate(-45,326,246)">
+      <path
+         d="M 144.5,209.7 362.30002,427.5 507.5,282.30002 289.70001,64.5 Z"
+         id="path3192"
+         stroke-miterlimit="0"
+         stroke-linejoin="bevel"
+         stroke-width="19"
+         stroke="#000000"
+         fill="#ffffff"
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1" />
+      <path
+         d="M 362.30002,427.5 144.5,209.7 h 193.60001 l 24.20001,24.20001 z"
+         id="path3196"
+         stroke-miterlimit="0"
+         stroke-linejoin="bevel"
+         stroke-width="19"
+         stroke="#000000"
+         fill="#ffffff"
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1" />
+      <path
+         d="M 289.70001,64.5 507.5,282.30002 338.10001,258.10001 l -24.19999,-24.2 z"
+         id="path3198"
+         stroke-miterlimit="0"
+         stroke-linejoin="bevel"
+         stroke-width="19"
+         stroke="#000000"
+         fill="#ffffff"
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
