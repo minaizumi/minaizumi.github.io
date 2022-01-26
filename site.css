@@ -107,15 +107,35 @@ a:hover {
     font-size: 1.5rem;
 }
 
-.welcome-container {
+.about-container {
     height: 100%;
     align-items: center;
     max-width: 850px;
     margin: auto;
 }
 
-.welcome-text {
-    text-align: center;
+.about-text {
+    text-align: left;
+}
+
+.skills-container {
+    width: 100%;
+    margin: auto;
+    max-width: 850px;
+}
+
+.skills-container th {
+    padding-bottom: 0.5rem;
+}
+
+.skills-container p {
+    margin-bottom: 0.5rem;
+}
+
+.progress {
+    background-color: rgba(17, 17, 17, 1);
+    max-width: 200px;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -144,7 +164,7 @@ a:hover {
     body {
         display: grid;
         gap: 1rem;
-        grid-template-columns: 1fr 4fr;
+        grid-template-columns: auto 4fr;
         grid-template-rows: auto;
     }
 
@@ -181,7 +201,8 @@ a:hover {
         scroll-margin-top: 4rem;
         height: 100vh;
         min-width: 250px;
-        margin-bottom: 0px!important
+        margin-bottom: 0px!important;
+        max-width: 250px;
     }
 
     .bd-cheatsheet section,
