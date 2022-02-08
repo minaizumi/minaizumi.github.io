@@ -29,10 +29,6 @@
 
         link.classList.add('active')
 
-        if (parent.classList.contains('collapsed')) {
-            parent.click()
-        }
-
         if (!active) {
             return
         }

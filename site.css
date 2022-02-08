@@ -85,6 +85,16 @@ a:hover {
     border-collapse: collapse;
 }
 
+.nav-list {
+    font-size: 1.2rem;
+}
+
+.nav-header {
+    font-size: 1.6rem;
+    color:rgba(255, 255, 255, .65);
+    padding-left: 0.5rem;
+}
+
 .socials-icon {
     width: 1.5rem;
 }
