@@ -57,6 +57,7 @@ a:hover {
 .bd-aside .btn:focus {
     color: rgba(255, 255, 255, .85);
     background-color: rgba(167, 159, 168, 0.1);
+    border-radius: 5px;
 }
 
 .bd-aside .btn:focus {
@@ -138,6 +139,37 @@ a:hover {
     margin-bottom: 0.5rem;
 }
 
+.projects-article {
+    display: flex!important;
+    flex-wrap: wrap;
+}
+
+.project-container {
+    background-color: rgba(17, 17, 17, 1);
+    flex-direction: row;
+    float: left;
+    flex-grow: 1;
+    border-radius: 5px;
+    width: 48%;
+    padding: 10px;
+}
+
+.project-container p {
+    margin-left: .3125rem;
+}
+
+.project-container a {
+    margin-top: .125rem;
+    color: rgba(255, 255, 255, .65);
+    text-decoration: none;
+}
+
+.project-container a:hover,
+.project-container a:focus {
+    color: rgba(255, 255, 255, .85);
+    background-color: rgba(167, 159, 168, .1);
+    border-radius: 5px;
+}
 
 /* Examples */
 .scrollspy-example {
