@@ -87,7 +87,6 @@ a:hover {
 
 .socials-icon {
     width: 1.5rem;
-    height: 1rem;
 }
 
 .name-container {
@@ -169,6 +168,53 @@ a:hover {
     color: rgba(255, 255, 255, .85);
     background-color: rgba(167, 159, 168, .1);
     border-radius: 5px;
+}
+
+.contact-container {
+    height: 100%;
+    align-items: center;
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+.socials-large {
+    display: flex;
+}
+
+.socials-large a {
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: .3125rem;
+    color: rgba(255, 255, 255, .65);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.socials-large div:hover,
+.socials-large div:focus {
+    color: rgba(255, 255, 255, .85);
+    background-color: rgba(167, 159, 168, .1);
+}
+
+.socials-large .active {
+    font-weight: 600;
+    color: rgba(255, 255, 255, .85);
+}
+
+.social-icon-container {
+    float: left;
+    flex-grow: 1;
+    flex-direction: row;
+    width: 45%;
+    margin: auto;
+    padding: 20px;
+}
+
+.social-img-large {
+    max-width: 200px;
+    height: auto;
+    object-fit: scale-down;
 }
 
 /* Examples */
