@@ -1,5 +1,14 @@
 /* global bootstrap: false */
 
+function toggleNav() {
+    var x = document.getElementById("aside-table");
+    if (x.style.display === "table") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "table";
+    }
+}
+
 (function () {
     'use strict'
 

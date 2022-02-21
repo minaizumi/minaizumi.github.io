@@ -21,6 +21,23 @@ a:hover {
     color: rgba(0, 150, 255, 1);
 }
 
+.float-left {
+    float: left;
+}
+
+.burger-container {
+    float: right;
+    display: flex;
+    height: 100%;
+    min-height: 4.5rem;
+    align-items: center;
+}
+
+.aside-header {
+    height: 5%;
+    min-height: 4.5rem;
+}
+
 /* stylelint-disable-next-line selector-max-universal */
 .bd-heading + div > * + * {
     margin-top: 3rem;
@@ -83,6 +100,7 @@ a:hover {
 .aside-container {
     height: 100%;
     border-collapse: collapse;
+    display: none;
 }
 
 .nav-list {
@@ -233,7 +251,7 @@ a:hover {
 }
 
 .social-img-large {
-    max-width: 200px;
+    max-width: 100px;
     height: auto;
     object-fit: scale-down;
 }
@@ -265,6 +283,15 @@ a:hover {
         gap: 1rem;
         grid-template-columns: auto 4fr;
         grid-template-rows: auto;
+    }
+
+    .aside-container {
+        display: table;
+        height: 93%;
+    }
+
+    .burger-container {
+        display: none;
     }
 
     .bd-header {
@@ -331,5 +358,11 @@ a:hover {
 
     .bd-cheatsheet .bd-heading {
         z-index: 1;
+    }
+
+    .social-img-large {
+        max-width: 200px;
+        height: auto;
+        object-fit: scale-down;
     }
 }
