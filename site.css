@@ -149,8 +149,7 @@ a:hover {
 .skills-container {
     width: 100%;
     margin: auto;
-    max-width: 850px;
-    display: flex;    
+    max-width: 850px;   
 }
 
 .skills-container th {
@@ -163,7 +162,7 @@ a:hover {
 
 .skills-container-sub {
     flex-direction: row;
-    float: left;
+    
     flex-grow: 1;
     border-radius: 5px;
     padding: 10px;
@@ -307,8 +306,13 @@ a:hover {
         width: 48%;
     }
 
+    .skills-container {
+        display: flex;
+    }
+
     .skills-container-sub {
         width: 30%;
+        float: left;
     }
 
     .bd-header {
