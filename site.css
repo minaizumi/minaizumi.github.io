@@ -217,6 +217,13 @@ a:hover {
     object-fit: scale-down;
 }
 
+.project-img-full {
+    width: 100%;
+    height: 40%;
+    object-fit: scale-down;
+    padding: 5%;
+}
+
 .contact-container {
     height: 100%;
     align-items: center;
